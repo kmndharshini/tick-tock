@@ -1,0 +1,108 @@
+Problem Statement: Interactive Clock Learning App for Kids
+1. Project title
+Tick-Tock: An Interactive Clock Learning Game for Children
+2. Problem statement
+Many young children find it difficult to learn how to read analog clocks, identify the hour and minute hands, understand the relationship between hours and minutes, and convert analog time into digital time. Traditional teaching methods, such as textbooks and printed worksheets, may not provide enough hands-on practice to help children understand these concepts.
+
+Therefore, there is a need for an interactive, child-friendly clock-learning application or website that supports touchscreen interaction. The application should allow children to learn by touching and moving clock hands, answering fun exercises, matching analog clocks with digital times, and receiving instant feedback on their answers.
+
+The system should provide progressive learning activities, starting with basic hour recognition and advancing to half-past, quarter-past, quarter-to, five-minute intervals, and everyday time-related activities. Through visual demonstrations, interactive exercises, rewards, and simple instructions, the application aims to improve children's time-reading skills, confidence, and independent learning.
+
+The website or app should work on touch-enabled devices such as tablets, touchscreen computers, and smartphones, as well as traditional computers using a mouse.
+3. Existing games for reference
+I found several existing clock-learning games that you can explore before designing your own application.
+
+Squeebles Tell the Time - learn to tell the time on iPad, Android and Kindle Fire
+
+1. Learn Clock Time
+
+Best for touchscreen interaction
+
+Children can tap or drag clock hands, set a requested time, answer challenges, and earn stars. It supports phones and tablets.
+
+Website: Play Learn Clock Time. 
+
+Learn Clock Time
+
+Fun Clock Games: Interactive Tool Time Telling Activities - AnalogClock.net
+
+2. TellingTime.io
+
+Includes read-the-clock quizzes, drag-and-drop clock setting, memory matching, speed tests, and progressive difficulty levels.
+
+Website: Explore clock-learning games. 
+
+Telling Time
+
+Interactive Telling Time Clock at Katie Jenkins blog
+
+3. Clock for Kids
+
+Offers guided lessons, a movable analog clock, themed timers, and printable practice worksheets.
+
+Website: Visit Clock for Kids. 
+
+Clock for Kids
+
+Telling Time Academy for Android -  Download
+
+4. Draw the Clock Time
+
+Children draw clock hands to show a target time or identify the time displayed on a clock. It is designed for touchscreens and mouse input.
+
+Website: Try Draw the Clock Time. 
+
+Drawing Game
+
+4. Proposed learning exercises
+Your application can use these existing games as inspiration while combining their strongest features into one learning experience.
+
+AIRUIFU Learning Clock for Kids - Telling Time India | Ubuy
+
+Exercise 1: Learn the clock
+
+Children identify the numbers, hour hand, and minute hand using colors, pictures, and simple instructions.
+
+Interactive Clock Games Topmarks at Lori Santiago blog
+
+Exercise 2: Set the correct time
+
+The screen asks, “Can you show 3 o'clock?” Children move the clock hands using their fingers or a mouse.
+
+Telling Time Drag and Drop Interactive PPT/Google Slides™ - a Bundle
+
+Exercise 3: Match the time
+
+Children match an analog clock to the correct digital time from several choices.
+
+Best free and discounted apps for kids for telling time - Appysmarts
+
+Exercise 4: Time in daily life
+
+Children associate times with activities such as waking up, going to school, eating lunch, and going to bed.
+
+Math Games for Kids: Learning | Fun Math Games for Pre-K to 2nd Grade
+
+Exercise 5: Clock challenge
+
+Children solve increasingly difficult questions, earn stars, and review incorrect answers with helpful hints.
+5. Touchscreen accessibility requirements
+The application should include:
+- Large, easy-to-tap buttons and clock hands.
+- Drag-and-drop and tap-to-set interactions.
+- Clear colors, readable text, and child-friendly illustrations.
+- Audio instructions for children who are still learning to read.
+- Immediate feedback, with hints instead of discouraging error messages.
+- Keyboard and mouse support in addition to touch.
+- Responsive layouts for phones, tablets, and touchscreen computers.
+- Accessibility support for children with different learning needs.
+6. Objectives of the project
+1. Help children understand analog and digital clocks.
+2. Improve time recognition through interactive practice.
+3. Encourage independent learning through games and rewards.
+4. Make clock learning engaging and accessible on touchscreens.
+5. Track learning progress and gradually increase exercise difficulty.
+7. What could make your project different?
+Rather than simply copying an existing clock game, you could build a touch-first learning website with a guided exercise pathway. For example, a child completes the “Learn the hour hand” activity before unlocking “Half past,” then advances to matching games and real-life time challenges. Teachers or parents could optionally view progress.
+
+Recommended starting point: Explore Learn Clock Time and TellingTime.io first. They are particularly useful references for touch interaction and varied learning exercises.

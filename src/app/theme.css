@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-hour: #e05a2b;
+  --color-hour-dark: #b8431b;
+  --color-minute: #1d6fa5;
+  --color-minute-dark: #14527c;
+  --color-surface: #fffdf8;
+  --color-surface-card: #ffffff;
+  --color-surface-muted: #f3efe6;
+  --color-ink: #1c2430;
+  --color-ink-muted: #4a5568;
+  --color-success: #1b7f4b;
+  --color-warning: #b45309;
+  --touch-target-min: 48px;
+}
+
+@layer base {
+  html,
+  body {
+    background-color: var(--color-surface);
+    color: var(--color-ink);
+    font-family: "Nunito", "Segoe UI", system-ui, -apple-system, sans-serif;
+    -webkit-tap-highlight-color: transparent;
+    overflow-x: hidden;
+  }
+
+  button,
+  a,
+  [role="button"] {
+    min-height: var(--touch-target-min);
+    min-width: var(--touch-target-min);
+  }
+
+  :focus-visible {
+    outline: 3px solid var(--color-minute);
+    outline-offset: 2px;
+  }
+}
+
+.touch-target {
+  min-height: var(--touch-target-min);
+  min-width: var(--touch-target-min);
+}
+
+@media (orientation: landscape) and (max-height: 500px) {
+  .clock-stage-grid {
+    display: grid;
+    grid-template-columns: minmax(200px, 50vh) 1fr;
+    align-items: start;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@media (forced-colors: active) {
+  :focus-visible {
+    outline: 3px solid Highlight;
+  }
+
+  svg circle,
+  svg line,
+  svg polygon {
+    forced-color-adjust: auto;
+  }
+
+  [data-testid="hour-hand"] line,
+  [data-testid="hour-hand"] polygon {
+    stroke: CanvasText;
+    fill: CanvasText;
+  }
+
+  [data-testid="minute-hand"] line,
+  [data-testid="minute-hand"] polygon {
+    stroke: Highlight;
+    fill: Highlight;
+  }
+}
+
